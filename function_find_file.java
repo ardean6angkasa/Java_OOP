@@ -6,9 +6,8 @@ public class function_find_file {
 
             // code that may generate IOException
             // this is the function to find a file
-            File newFile = new File("D:\\java\\src\\com\\company\\codingan sistem basis data.txt");
+            File newFile = new File("unknown path myfile.txt");
             FileInputStream stream = new FileInputStream(newFile);
-//            throw new IOException("File not found");
         }
 
         public static void main(String[] args) {
