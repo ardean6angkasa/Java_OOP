@@ -42,8 +42,8 @@ public class college_student_biodata {
         Scanner userInput = new Scanner(System.in);
 
         System.out.print("NIM: ");
-        long nim = userInput.nextLong(); // Use long data type
-        userInput.nextLine(); // Consume the newline character
+        long nim = userInput.nextLong();
+        userInput.nextLine();
         input.setNim(nim);
 
         System.out.print("Nama lengkap: ");
